@@ -96,7 +96,7 @@ as well as performing operations like minting, swapping, and burning
 ### Demo Tasks
 1. **Using Factory and Pair Contracts Only**
    This demo handles deploying the Factory and Pair contracts and executing a complete flow of operations
-   [View the demo task](https://github.com/NilFoundation/uniswap-v2-nil/blob/main/tasks/core/demo.ts)
+   [View the demo task](https://github.com/NilFoundation/uniswap-v2-nil/blob/prep-for-tests/tasks/core/demo.ts)
    ![alt text](/public/demo.png)
 
 
@@ -107,7 +107,7 @@ as well as performing operations like minting, swapping, and burning
 
 2. **Using Factory, Pair, and Router Contracts**
    This demo includes an additional layer by utilizing the Router contract along with Factory and Pair
-   [View the demo-router task](https://github.com/NilFoundation/uniswap-v2-nil/blob/main/tasks/core/demo-router.ts)
+   [View the demo-router task](https://github.com/NilFoundation/uniswap-v2-nil/blob/prep-for-tests/tasks/core/demo-router.ts)
    ![alt text](/public/demo-router.png)
 
    **Important:**
@@ -121,7 +121,7 @@ as well as performing operations like minting, swapping, and burning
    This demo task shows how to deploy the `UniswapV2Router01` contract
    and use it as a proxy for adding/removing liquidity and swaps via sync calls.
    It allows checks on amounts before pair calls and maintains currency rates.
-   [View the demo-router task](https://github.com/NilFoundation/uniswap-v2-nil/blob/main/tasks/core/demo-router-sync.ts)
+   [View the demo-router task](https://github.com/NilFoundation/uniswap-v2-nil/blob/prep-for-tests/tasks/core/demo-router-sync.ts)
 
    **Important:**
    - `UniswapV2Router01` should be deployed on the same shard as the pair contract.
@@ -150,7 +150,7 @@ as well as performing operations like minting, swapping, and burning
 
 ### Manual Setup
 If you prefer to run everything manually, we provide Ignition modules for each contract:
-[Ignition Modules](https://github.com/NilFoundation/uniswap-v2-nil/tree/main/ignition)
+[Ignition Modules](https://github.com/NilFoundation/uniswap-v2-nil/tree/prep-for-tests/ignition)
 
 Additionally, all crucial contract methods have corresponding tasks:
 [Tasks](https://github.com/NilFoundation/uniswap-v2-nil/tree/main/tasks)
